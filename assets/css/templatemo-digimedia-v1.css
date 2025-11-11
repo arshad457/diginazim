@@ -465,7 +465,7 @@ header
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-        max-width: 260px;
+        max-width: 180px;
 }
 
 .background-header .main-nav .logo {
@@ -2010,6 +2010,17 @@ form#contact button {
 form#contact button:hover {
   background-color: #fa65b1!important;
   color: #fff!important;
+}
+.flexMeter {
+    display: flex;
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 10px 0;
+}
+.flexMeter a.itemftrLink {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 /* 
